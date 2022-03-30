@@ -12,6 +12,3 @@ artifacts:
   filtes:
     - target/sharerhproject.jar
   discard-paths: yes
-artifacts:
-  files:
-    - '**/*'

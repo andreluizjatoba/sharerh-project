@@ -28,6 +28,7 @@ public class AccountService {
 	@Autowired	
 	private AccountRepository accountRepository;
 	
+	// Método para listar todas as contas utilizando pages
 	@Transactional(readOnly = true)
 	public Page<AccountDTO> getAll(Pageable pageable) {
 		Page<Account> list = accountRepository.findAll(pageable);

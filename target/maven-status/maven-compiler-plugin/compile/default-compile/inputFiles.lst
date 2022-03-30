@@ -1,0 +1,14 @@
+/home/andrejatoba/ShareRH_Project/Aplicacao/src/main/java/com/sharerh/projeto/controllers/exceptions/ResourceExceptionHandler.java
+/home/andrejatoba/ShareRH_Project/Aplicacao/src/main/java/com/sharerh/projeto/repositories/AccountRepository.java
+/home/andrejatoba/ShareRH_Project/Aplicacao/src/main/java/com/sharerh/projeto/services/exceptions/AccountConflictException.java
+/home/andrejatoba/ShareRH_Project/Aplicacao/src/main/java/com/sharerh/projeto/dto/AccountUpdateDTO.java
+/home/andrejatoba/ShareRH_Project/Aplicacao/src/main/java/com/sharerh/projeto/controllers/AccountController.java
+/home/andrejatoba/ShareRH_Project/Aplicacao/src/main/java/com/sharerh/projeto/dto/AccountDTO.java
+/home/andrejatoba/ShareRH_Project/Aplicacao/src/main/java/com/sharerh/projeto/entities/AccountResponseMessage.java
+/home/andrejatoba/ShareRH_Project/Aplicacao/src/main/java/com/sharerh/projeto/controllers/exceptions/StandardError.java
+/home/andrejatoba/ShareRH_Project/Aplicacao/src/main/java/com/sharerh/projeto/entities/Account.java
+/home/andrejatoba/ShareRH_Project/Aplicacao/src/main/java/com/sharerh/projeto/services/exceptions/IntegrityViolatedException.java
+/home/andrejatoba/ShareRH_Project/Aplicacao/src/main/java/com/sharerh/projeto/controllers/HealtCheckController.java
+/home/andrejatoba/ShareRH_Project/Aplicacao/src/main/java/com/sharerh/projeto/AplicacaoApplication.java
+/home/andrejatoba/ShareRH_Project/Aplicacao/src/main/java/com/sharerh/projeto/services/AccountService.java
+/home/andrejatoba/ShareRH_Project/Aplicacao/src/main/java/com/sharerh/projeto/services/exceptions/EntityNotFoundException.java

@@ -9,6 +9,9 @@ phases:
     commands:
       - echo Build completed sucessfully
 artifacts:
-  filtes:
-    - target/sharerhproject.jar
-  discard-paths: no
+  files:
+    - '**/*'
+#artifacts:
+#  filtes:
+#    - target/sharerhproject.jar
+#  discard-paths: yes

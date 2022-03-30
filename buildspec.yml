@@ -11,7 +11,4 @@ phases:
 artifacts:
   files:
     - '**/*'
-#artifacts:
-#  filtes:
-#    - target/sharerhproject.jar
-#  discard-paths: yes
+  discard-paths: yes

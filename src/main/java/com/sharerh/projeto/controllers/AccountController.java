@@ -28,7 +28,7 @@ import com.sharerh.projeto.services.AccountService;
 import com.sharerh.projeto.services.exceptions.AccountConflictException;
 
 @RestController
-@RequestMapping("api/v1/accounts")
+@RequestMapping("v1/accounts")
 public class AccountController {
 	
 	@Autowired

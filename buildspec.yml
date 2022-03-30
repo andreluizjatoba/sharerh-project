@@ -11,4 +11,4 @@ phases:
 artifacts:
   filtes:
     - target/sharerhproject.jar
-  discard-paths: yes
+discard-path: no

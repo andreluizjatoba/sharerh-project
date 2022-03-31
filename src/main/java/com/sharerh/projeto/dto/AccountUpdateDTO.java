@@ -32,7 +32,8 @@ public class AccountUpdateDTO {
 	
 	@Size(max = 20, message = "{size.registerId}") @Pattern(regexp = "[0-9]*", message = "{field.is.numeric}")
 	private String registerId;
-
+	
+	// Constructors
 	public AccountUpdateDTO() {
 		
 	}
@@ -77,18 +78,21 @@ public class AccountUpdateDTO {
 		registerId = account.getRegisterId();
 	}
 	
+	// Método para converter os dados para a Classe Entity Account
 	public Account transformIntoEntity() {
 		return new Account(nameOwner, agencyCode, numberAccount, digitVerification, registerId);
 	}
 	
+	//Getters and Setters
+	// id
 	public Long getId() {
 		return id;
 	}
-	
 	public void setId(Long id) {
 		this.id = id;
 	}
 
+	// nameOwner
 	public String getNameOwner() {
 		return nameOwner;
 	}
@@ -96,6 +100,7 @@ public class AccountUpdateDTO {
 		this.nameOwner = nameOwner;
 	}
 
+	// agencyCode
 	public String getAgencyCode() {
 		return agencyCode;
 	}
@@ -103,6 +108,7 @@ public class AccountUpdateDTO {
 		this.agencyCode = agencyCode;
 	}
 
+	// numberAccount
 	public String getNumberAccount() {
 		return numberAccount;
 	}
@@ -110,6 +116,7 @@ public class AccountUpdateDTO {
 		this.numberAccount = numberAccount;
 	}
 
+	// digitalVerification
 	public String getDigitVerification() {
 		return digitVerification;
 	}
@@ -117,6 +124,7 @@ public class AccountUpdateDTO {
 		this.digitVerification = digitVerification;
 	}
 
+	// registerId
 	public String getRegisterId() {
 		return registerId;
 	}

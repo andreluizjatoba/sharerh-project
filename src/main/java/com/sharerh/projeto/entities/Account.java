@@ -10,6 +10,13 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+/**
+ * Classe Identitie (Modelo) da conta
+ * 
+ * @author andrejatoba
+ *
+ */
+
 @Entity
 @Table(name = "TB_ACCOUNT")
 public class Account implements Serializable {
@@ -36,7 +43,7 @@ public class Account implements Serializable {
 	@Column(name = "REGISTER_ID", nullable = false, length = 20, unique = true)
 	private String registerId;
 	
-	//Contructors
+	// Constructors
 	public Account() {
 		
 	}
@@ -50,10 +57,12 @@ public class Account implements Serializable {
 	}
 
 	//Getters and Setters
+	// Id
 	public Long getId() {
 		return id;
 	}
 	
+	// nameOwner
 	public String getNameOwner() {
 		return nameOwner;
 	}
@@ -61,6 +70,7 @@ public class Account implements Serializable {
 		this.nameOwner = nameOwner;
 	}
 
+	// agencyCode
 	public String getAgencyCode() {
 		return agencyCode;
 	}
@@ -68,6 +78,7 @@ public class Account implements Serializable {
 		this.agencyCode = agencyCode;
 	}
 
+	// numberAccount
 	public String getNumberAccount() {
 		return numberAccount;
 	}
@@ -75,6 +86,7 @@ public class Account implements Serializable {
 		this.numberAccount = numberAccount;
 	}
 
+	// digitVerification
 	public String getDigitVerification() {
 		return digitVerification;
 	}
@@ -82,6 +94,7 @@ public class Account implements Serializable {
 		this.digitVerification = digitVerification;
 	}
 
+	// registerId
 	public String getRegisterId() {
 		return registerId;
 	}
@@ -89,11 +102,12 @@ public class Account implements Serializable {
 		this.registerId = registerId;
 	}
 	
+	// Métodos para garantir a consistência (único) do campo id
 	@Override
 	public int hashCode() {
 		return Objects.hash(id);
 	}
-
+	
 	@Override
 	public boolean equals(Object obj) {
 		if (this == obj) return true;

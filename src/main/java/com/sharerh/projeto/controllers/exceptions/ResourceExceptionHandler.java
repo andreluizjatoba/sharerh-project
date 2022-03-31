@@ -15,6 +15,14 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 
 import com.sharerh.projeto.services.exceptions.AccountConflictException;
 
+
+/**
+ * Classe para tratar as exceções (erros) utilizando um retorno de erro padrão (Classe StandardError)
+ * 
+ * @author andrejatoba
+ *
+ */
+
 @ControllerAdvice
 public class ResourceExceptionHandler {
 	

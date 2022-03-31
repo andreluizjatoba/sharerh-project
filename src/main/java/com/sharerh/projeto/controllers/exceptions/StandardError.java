@@ -3,6 +3,13 @@ package com.sharerh.projeto.controllers.exceptions;
 import java.io.Serializable;
 import java.time.Instant;
 
+/**
+ * Classe de definição do padrão para mensagens de erro (exceptions)
+ * 
+ * @author andrejatoba
+ *
+ */
+
 public class StandardError implements Serializable {
 	private static final long serialVersionUID = 1L;
 	

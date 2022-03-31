@@ -27,6 +27,13 @@ import com.sharerh.projeto.entities.AccountResponseMessage;
 import com.sharerh.projeto.services.AccountService;
 import com.sharerh.projeto.services.exceptions.AccountConflictException;
 
+/**
+ * Classe Controle Rest Recebe as requisições dos clientes 
+ *  
+ * @author andrejatoba
+ *
+ */
+
 @RestController
 @RequestMapping("v1/accounts")
 public class AccountController {

@@ -1,5 +1,12 @@
 package com.sharerh.projeto.entities;
 
+/**
+ * Classe para retorno uma messagem utilizada no método de deletar conta
+ * 
+ * @author andrejatoba
+ *
+ */
+
 public class AccountResponseMessage {
 	
 	private String message;

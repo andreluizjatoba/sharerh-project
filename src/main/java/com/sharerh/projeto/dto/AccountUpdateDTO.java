@@ -7,6 +7,13 @@ import javax.validation.constraints.Size;
 
 import com.sharerh.projeto.entities.Account;
 
+/**
+ * Classe DTO específica para o método de update, recebe e retorna os dados para o Controle Rest
+ * 
+ * @author andrejatoba
+ *
+ */
+
 public class AccountUpdateDTO {
 	
 	private Long id;

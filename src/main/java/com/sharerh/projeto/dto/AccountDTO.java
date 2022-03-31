@@ -7,6 +7,13 @@ import javax.validation.constraints.Size;
 
 import com.sharerh.projeto.entities.Account;
 
+/**
+ * Classe DTO para receber (validar) e retornar os dados para o Controle Rest
+ * 
+ * @author andrejatoba
+ *
+ */
+
 public class AccountDTO {
 	
 	private Long id;

@@ -11,7 +11,7 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 /**
- * Classe Identitie (Modelo) da conta
+ * Classe Entities (Model) da conta
  * 
  * @author andrejatoba
  *

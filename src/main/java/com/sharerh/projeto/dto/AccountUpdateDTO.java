@@ -30,7 +30,7 @@ public class AccountUpdateDTO {
 	@Size(max = 3, message = "{size.digitVerification}") @Pattern(regexp = "[0-9]*", message = "{field.is.numeric}")
 	private String digitVerification;
 	
-	@Size(max = 20, message = "{size.registerId}") @Pattern(regexp = "[0-9]*", message = "{field.is.numeric}")
+	@Size(max = 20, message = "{size.registerId}")
 	private String registerId;
 	
 	// Constructors

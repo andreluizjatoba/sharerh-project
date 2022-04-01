@@ -35,7 +35,7 @@ public class AccountDTO {
 	private String digitVerification;
 	
 	@NotBlank(message = "{field.not.blank}") @NotEmpty(message = "{field.not.empty}")
-	@Size(max = 20, message = "{size.registerId}") @Pattern(regexp = "[0-9]*", message = "{field.is.numeric}")
+	@Size(max = 20, message = "{size.registerId}")
 	private String registerId;
 	
 	// Constructors

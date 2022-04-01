@@ -19,4 +19,4 @@ insert into tb_account(id, name_owner, agency_code, number_account, digit_verifi
   values (2, 'João Luiz Pavaneli', '0002', '00000456', '002', '123.456.789-02');
  
 insert into tb_account(id, name_owner, agency_code, number_account, digit_verification, register_id)
-  values (3, 'André Jatobá', '0001', '00000789', '003' '123.456.789-03');
+  values (3, 'André Jatobá', '0001', '00000789', '003', '123.456.789-03');

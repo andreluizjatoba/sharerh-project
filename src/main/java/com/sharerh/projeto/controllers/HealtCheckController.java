@@ -17,7 +17,7 @@ public class HealtCheckController {
 	
 	@GetMapping	
 	public String health() {
-		return "It works Successfully";
+		return "It works Successfully - Test Pipeline";
 	}
 	
 }

@@ -13,10 +13,10 @@
 -- );
 
 insert into tb_account(id, name_owner, agency_code, number_account, digit_verification, register_id)
-  values (1, 'pedro luiz', '1', '001', '0', '1');
+  values (1, 'Pedro Luiz Lacativa', '1', '0011', '0', '123.456.789-01');
 
 insert into tb_account(id, name_owner, agency_code, number_account, digit_verification, register_id)
-  values (2, 'joão luiz', '2', '002', '1', '2');
+  values (2, 'João Luiz Pavaneli', '2', '0022', '1', '123.456.789-02');
  
 insert into tb_account(id, name_owner, agency_code, number_account, digit_verification, register_id)
-  values (3, 'andré luiz', '1', '003', '0', '3');
+  values (3, 'André Jatobá', '1', '1', '0033', '123.456.789-03');
